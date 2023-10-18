@@ -5,9 +5,9 @@
 
 ### For UI creation HTML5 and CSS3 are used to make awesome UI.
 
-# This application uses component oriented UI. All components are written in JSX and ES6 style and styled seperately.
+### This application uses component oriented UI. All components are written in JSX and ES6 style and styled seperately.
 
-# This is a responsive web application for viewing in Desktop.
+### This is a responsive web application for viewing in Desktop.
 
 You can view a live demo of the project here: https://ganeshkolekar4753.github.io/react-chat-app
 
@@ -23,14 +23,14 @@ This is a Simple Chat Application.
 - User can able to search new friends by name and start chatting.
 - Message - user can able to send text message as well as image.
 
-Screenshots
+# Screenshots
 
-# Login page
+## Login page
 ![image](https://github.com/GaneshKolekar4753/react-chat-app/assets/128522242/2c74ae2e-5924-4852-bc6d-ddabe643d7d3)
 
-# Register page
+## Register page
 ![image](https://github.com/GaneshKolekar4753/react-chat-app/assets/128522242/6739d48d-2a1a-41c5-8e82-200b625c11f0)
 
-# Home page
+## Home page
 ![image](https://github.com/GaneshKolekar4753/react-chat-app/assets/128522242/9a39c57f-34ac-4c81-a113-24af82781c46)
 
