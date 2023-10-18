@@ -47,7 +47,7 @@ function Register() {
             });
             // add a new doc in collections for userchats
             await setDoc(doc(db, "userChats", res.user.uid), {});
-            navigate("/");
+            navigate("/react-chat-app");
           });
         }
       );
@@ -76,7 +76,7 @@ function Register() {
             {err && <span>Somthing went wrong. please try again...</span>}
           </form>
           <p>
-            you have an acount? <Link to="/login">Login</Link>{" "}
+            you have an acount? <Link to="/react-chat-app/login">Login</Link>{" "}
           </p>
         </div>
       </div>

@@ -10,21 +10,21 @@ function App() {
   const {currentUser}=useContext(AuthContext);
   const ProtectedRoute=({children})=>{
     if(!currentUser){
-      return <Navigate to="/login"/>
+      return <Navigate to="/react-chat-app/login"/>
     }
     return children;
   }
   return (
     <BrowserRouter>
      <Routes>
-       <Route path="/">
+       <Route path="/react-chat-app">
         <Route index element={
           <ProtectedRoute>
             <Home/>
           </ProtectedRoute>
         }/>
-        <Route path="login" element={<Login/>}/>
-        <Route path="register" element={<Register/>}/>
+        <Route path="/react-chat-app/login" element={<Login/>}/>
+        <Route path="/react-chat-app/register" element={<Register/>}/>
        </Route>
      </Routes>
     </BrowserRouter>

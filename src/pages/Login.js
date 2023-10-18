@@ -16,7 +16,7 @@ function Login() {
     try {
       
       await signInWithEmailAndPassword(auth, email, password);
-      navigate("/");
+      navigate("/react-chat-app");
     } catch (err) {
       setError(true);
     }
@@ -35,7 +35,7 @@ function Login() {
             {err && <span>Something went wrong..</span>}
           </form>
           <p>
-            you don't have an acount? <Link to="/register">Register</Link>
+            you don't have an acount? <Link to="/react-chat-app/register">Register</Link>
           </p>
         </div>
       </div>
