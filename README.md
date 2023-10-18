@@ -3,7 +3,7 @@
   🖊️ A simple React Chat App built using <a href="https://reactjs.org/">React JS</a> Vanilla JavaScript,Node JS and Firebase. 
 </p>
 
-# For UI creation HTML5 and CSS3 are used to make awesome UI.
+### For UI creation HTML5 and CSS3 are used to make awesome UI.
 
 # This application uses component oriented UI. All components are written in JSX and ES6 style and styled seperately.
 
